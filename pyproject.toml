@@ -1,0 +1,13 @@
+[project]
+name = "bus-alert"
+version = "0.1.0"
+description = "Geo-fence alert daemon for bus tracking"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "plyer>=2.1.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
